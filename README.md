@@ -47,3 +47,21 @@ This repository manages the **GitOps workflow** for deploying applications to di
      - The Helm chart to use for deployment.
      - The values reference for each environment.
      - Sync policies to automate deployment.
+    
+## About the Project
+
+This repository is **one of three repositories** that together form the complete platform:
+
+1. **Infrastructure Repository**:
+   - Manages cloud infrastructure using Terraform.
+   - Provisions resources such as EKS, VPC, AWS Load Balancer Controller, Nginx, and more.
+
+2. **GitOps Repository (This Repository)**:
+   - Manages Kubernetes application deployments using ArgoCD.
+   - Defines environment-specific configurations and sync policies to automate deployments.
+
+3. **Application Repository**:
+   - Contains the application codebase, Dockerfiles, and CI/CD pipelines for building and deploying the app.
+
+These repositories work together to deliver a fully automated, scalable, and GitOps-driven platform.
+
