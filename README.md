@@ -65,3 +65,4 @@ This repository is **one of three repositories** that together form the complete
 
 These repositories work together to deliver a fully automated, scalable, and GitOps-driven platform.
 
+![argocd-image](https://github.com/user-attachments/assets/4f509dcf-3b5b-4573-9935-2b7037b1a7ce)
