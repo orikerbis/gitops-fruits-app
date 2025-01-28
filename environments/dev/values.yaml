@@ -1,5 +1,5 @@
 global:
-  secretName: "app/dev/mongodb-credentials"
+  secretName: "mongo"
 app:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/app
