@@ -3,6 +3,7 @@
 This repository manages the **GitOps workflow** for deploying applications to different environments using **ArgoCD**. Each environment (`dev`, `test`, `prod`) is represented by a separate directory with configuration files that define the deployment settings and application resources.
 
 ---
+![argocd-image](https://github.com/user-attachments/assets/4f509dcf-3b5b-4573-9935-2b7037b1a7ce)
 
 ## How It Works
 
@@ -65,4 +66,3 @@ This repository is **one of three repositories** that together form the complete
 
 These repositories work together to deliver a fully automated, scalable, and GitOps-driven platform.
 
-![argocd-image](https://github.com/user-attachments/assets/4f509dcf-3b5b-4573-9935-2b7037b1a7ce)
