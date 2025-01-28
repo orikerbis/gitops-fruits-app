@@ -6,13 +6,13 @@ metadata:
 spec:
   project: default
   sources:
-    - repoURL: "https://github.com/orikerbis/application.git"
+    - repoURL: "https://github.com/orikerbis/application-fruits-app.git"
       targetRevision: develop
       path: fruits-app
       helm:
         valueFiles:
           - $values/environments/dev/values.yaml
-    - repoURL: "https://github.com/orikerbis/gitops-fruitsApp.git"
+    - repoURL: "https://github.com/orikerbis/gitops-fruits-app.git"
       targetRevision: main
       ref: values
   destination:
