@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev-fruits-app
+  namespace: argocd
+spec:
+  project: default
+  sources:
+    - repoURL: "https://github.com/orikerbis/application.git"
+      targetRevision: develop
+      path: employee-app
+      helm:
+        valueFiles:
+          - $values/environments/dev/values.yaml
+    - repoURL: "https://github.com/orikerbis/gitops.git"
+      targetRevision: main
+      ref: values
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: fruits-app
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+      createNamespace: true
