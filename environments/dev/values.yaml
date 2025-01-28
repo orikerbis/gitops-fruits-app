@@ -1,10 +1,9 @@
 global:
   secretName: "app/dev/mongodb-credentials"
-
 app:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/app
-    tag: 6c3e592db55d35d86cf4f5077d478d452c536c42
+    tag: 89272258ee4a774bf3d2c3f6f4ebe893cdff0c29
   service:
     type: NodePort
     port: 3000
