@@ -12,7 +12,7 @@ spec:
       helm:
         valueFiles:
           - $values/environments/dev/values.yaml
-    - repoURL: "https://github.com/orikerbis/gitops.git"
+    - repoURL: "https://github.com/orikerbis/gitops-fruitsApp.git"
       targetRevision: main
       ref: values
   destination:
