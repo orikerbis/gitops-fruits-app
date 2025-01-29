@@ -3,7 +3,7 @@ global:
 app:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/app
-    tag: 4f9d0d06c451a095c03b705f58f4ddbdff0d3239
+    tag: 7806e7b76bc132164485c2cd3e59029b700e057e
   service:
     type: NodePort
     port: 3000
