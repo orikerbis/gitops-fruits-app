@@ -7,6 +7,7 @@ This repository manages the **GitOps workflow** for deploying applications to di
 
 ## How It Works
 
+
 1. **ArgoCD as a Continuous Delivery Tool**:
    - This repository is integrated with **ArgoCD**, which continuously monitors changes in this repository to update the state of Kubernetes clusters.
    - Each environment is managed via an **ArgoCD Application resource** that defines:
